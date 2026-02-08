@@ -1,0 +1,51 @@
+html {
+    background: linear-gradient(120deg, orange, purple);
+    min-height: 100%;
+}
+.maintext {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+.maincontainer {
+    text-align: center;
+    background: linear-gradient(darkgray, gray);
+    width: 50%;
+    margin: auto;
+    height: 100%;
+    border-radius: 12px;
+    outline-style: solid;
+}
+
+.messagecontainer {
+    text-align: center;
+    background-color: lightgrey;
+    width: 70%;
+    height: 110%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    outline-style: solid;
+    
+}
+
+.messagebuttonlol {
+    padding: 10px 24px;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    /* Look at this code. Look how terribly written this is. I repent for my sins in the world of coding. I am sorry */
+}
+
+.messagebuttonlol:hover {
+   background-color: dimgray;
+   color: white;
+}
+
+.messagebuttonlol:active {
+    background-color: rgb(122, 122, 122);
+   color: white;
+}
